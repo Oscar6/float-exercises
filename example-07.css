@@ -6,23 +6,51 @@
 /* Example 07 */
 
 .container {
-	width: 1024px; /* change me to a percentage width, like 80% */
+	width: 82.5%; /* change me to a percentage width, like 80% */
 	margin: 0 auto;
 }
 
 
-.header {}
+.header {
+	height: 98px;
+	width: 984px;
+	padding-bottom: 20px;
+}
 
-.logo {}
+.logo {
+	float: left;
+}
 
-.navigation {}
+.navigation {
+	float: right;
+}
 
-.sidebar {}
+.sidebar {
+	float: left;
+	width: 26.5%;
+	height: 100%;
+	clear: both;
+}
 
-.main-content {}
+.main-content {
+	height: 400px;
+	width: 984px;
+	padding-bottom: 20px;
+}
 
-.sub-content {}
+.sub-content {
+	float: right;
+	width: 63.5%;
+	height: 40.5%;
+}
 
-.sub-content-2 {}
+.sub-content-2 {
+	float: right;
+	height: 40.5%;
+	width: 63.5%;
+	margin-top: 2%;
+}
 
-.footer {}
+.footer {
+	clear: both;
+}

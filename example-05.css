@@ -10,23 +10,48 @@
 	margin: 0 auto;
 }
 
-.header {}
+.header {
+	height: 98px;
+	width: 984px;
+	padding-bottom: 20px;
+}
 /* hint! what do you have to add here? */
 
-.logo {}
+.logo {
+	float: left;
+}
 
-.navigation {}
+.navigation {
+	float: right;
+}
 
-.sidebar {}
+.sidebar {
+	float: left;
+	width: 250px;
+	height: 358px;
+	clear: both;
+}
 
-.main-content {}
+.main-content {
+	height: 400px;
+	width: 984px;
+	padding-bottom: 20px;
+}
 /* hint! you have to contain the floated children elements. */
 
 .sub-content {
-	/* hint! */
+	float: right;
+	width: 600px;
+	height: 150px;
+	margin: 1px;
 }
 .sub-content-2 {
-	/* hint! */
+	float: right;
+	height: 150px;
+	width: 600px;
+	margin-top: 19px;
 }
 
-.footer {}
+.footer {
+	clear: both;
+}
